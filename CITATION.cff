@@ -1,0 +1,49 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper."
+title: "Accepted but Wrong: Silent Failures of LLM Code Repairs after API Migrations (code and data)"
+type: software
+license: MIT
+repository-code: "https://github.com/xiaobo-coder/accepted-but-wrong"
+authors:
+  - family-names: Chen
+    given-names: Xiaobo
+    affiliation: "University of Massachusetts Amherst"
+  - family-names: Zhu
+    given-names: Genliang
+    affiliation: "Accentrust & Georgia Institute of Technology"
+  - family-names: Wang
+    given-names: Ziyuan
+    affiliation: "Duke University"
+  - family-names: Wang
+    given-names: Chu
+    affiliation: "Accentrust & University of Illinois Urbana-Champaign"
+identifiers:
+  - type: other
+    value: "arXiv:2611.08269"
+    description: "arXiv preprint (v3)"
+url: "https://arxiv.org/abs/2611.08269"
+keywords:
+  - LLM program repair
+  - API migration
+  - release gate
+  - test oracle adequacy
+  - edge-case test inputs
+  - preregistration
+preferred-citation:
+  type: article
+  title: "Accepted but Wrong: Silent Failures of LLM Code Repairs after API Migrations"
+  authors:
+    - family-names: Chen
+      given-names: Xiaobo
+    - family-names: Zhu
+      given-names: Genliang
+    - family-names: Wang
+      given-names: Ziyuan
+    - family-names: Wang
+      given-names: Chu
+  year: 2026
+  journal: "arXiv preprint"
+  identifiers:
+    - type: other
+      value: "arXiv:2611.08269"
+  url: "https://arxiv.org/abs/2611.08269"

@@ -1,0 +1,127 @@
+{
+ "note": "Values printed in the paper (arXiv v3): its result tables (LaTeX, verbatim) and the headline numbers of the abstract.",
+ "tables": {
+  "task-table": "\\begin{longtable}{@{}llllllll@{}}\n\\caption{The 73 tasks.  Class: S silent change, E explicit error, B no-safe-repair task, C unchanged control.  Correct: hidden-correct procedures in the finite domain.  Last two columns: whether the stale procedure fails a visible all-assertions check with typical inputs and with the author edge input added (by the edge-input QA rule always yes for affected tasks).}\\label{tab:tasks}\\\\\n\\toprule\nTask & Runtime & Origin & Class & Split & Correct & typical & edge \\\\\n\\midrule\n\\endfirsthead\n\\toprule\nTask & Runtime & Origin & Class & Split & Correct & typical & edge \\\\\n\\midrule\n\\endhead\n\\texttt{py-binascii-hqx} & cpython & v2 & B & test & 0/6 & yes & yes \\\\\n\\texttt{py-distutils-looseversion} & cpython & v2 & B & test & 0/18 & yes & yes \\\\\n\\texttt{py-shuffle-random-param} & cpython & v2 & B & test & 0/6 & yes & yes \\\\\n\\texttt{py-control-csv} & cpython & v2 & C & development & 1/4 & no & no \\\\\n\\texttt{py-control-json-canonical} & cpython & v2 & C & development & 1/4 & no & no \\\\\n\\texttt{py-control-sha256} & cpython & v2 & C & test & 2/4 & no & no \\\\\n\\texttt{py-collections-abc-alias} & cpython & v2 & E & test & 3/6 & yes & yes \\\\\n\\texttt{py-imp-removed} & cpython & v2 & E & test & 2/10 & yes & yes \\\\\n\\texttt{py-inspect-getargspec} & cpython & v2 & E & development & 1/5 & yes & yes \\\\\n\\texttt{py-int-max-str-digits} & cpython & v2 & E & test & 1/5 & yes & yes \\\\\n\\texttt{py-locale-format} & cpython & v2 & E & test & 2/6 & yes & yes \\\\\n\\texttt{py-random-sample-set} & cpython & v2 & E & test & 2/6 & yes & yes \\\\\n\\texttt{py-randrange-float} & cpython & v2 & E & test & 1/5 & yes & yes \\\\\n\\texttt{py-safeconfigparser} & cpython & v2 & E & development & 1/9 & yes & yes \\\\\n\\texttt{py-unittest-assertequals} & cpython & v2 & E & test & 2/6 & yes & yes \\\\\n\\texttt{py-asyncio-timeouterror} & cpython & v2 & S & test & 11/32 & no & yes \\\\\n\\texttt{py-enum-contains-value} & cpython & v2 & S & test & 2/6 & no & yes \\\\\n\\texttt{py-intenum-str} & cpython & v2 & S & test & 2/7 & yes & yes \\\\\n\\texttt{py-intflag-invert} & cpython & v2 & S & test & 1/6 & no & yes \\\\\n\\texttt{py-mkdtemp-absolute} & cpython & v2 & S & test & 1/6 & yes & yes \\\\\n\\texttt{py-strenum-format} & cpython & v2 & S & test & 2/6 & yes & yes \\\\\n\\texttt{py-sum-neumaier} & cpython & v2 & S & test & 1/6 & no & yes \\\\\n\\texttt{py-ssl-match-hostname} & cpython & v3 & B & development & 0/5 & yes & yes \\\\\n\\texttt{py-unicodedata-15} & cpython & v3 & B & test & 0/5 & no & yes \\\\\n\\texttt{py-asyncio-coroutine} & cpython & v3 & E & test & 1/5 & yes & yes \\\\\n\\texttt{py-asyncio-loop-param} & cpython & v3 & E & development & 3/15 & yes & yes \\\\\n\\texttt{py-configparser-readfp} & cpython & v3 & E & development & 1/5 & yes & yes \\\\\n\\texttt{py-gettext-lgettext} & cpython & v3 & E & test & 1/5 & yes & yes \\\\\n\\texttt{py-gzip-filename} & cpython & v3 & E & test & 1/5 & yes & yes \\\\\n\\texttt{py-inspect-formatargspec} & cpython & v3 & E & development & 1/5 & yes & yes \\\\\n\\texttt{py-parser-module} & cpython & v3 & E & test & 3/15 & yes & yes \\\\\n\\texttt{py-re-inline-flags} & cpython & v3 & E & test & 6/20 & yes & yes \\\\\n\\texttt{py-unittest-assertdictcontainssubset} & cpython & v3 & E & test & 2/5 & yes & yes \\\\\n\\texttt{py-flag-iteration} & cpython & v3 & S & test & 1/5 & no & yes \\\\\n\\texttt{py-asynchat-producer} & cpython & v4 & E & test & 2/15 & yes & yes \\\\\n\\texttt{py-chr-decimal-index} & cpython & v4 & E & development & 1/5 & yes & yes \\\\\n\\texttt{py-formatter-dumbwriter} & cpython & v4 & E & development & 1/10 & yes & yes \\\\\n\\texttt{py-os-bytearray-path} & cpython & v4 & E & development & 2/5 & yes & yes \\\\\n\\texttt{py-pkgutil-impimporter} & cpython & v4 & E & test & 1/5 & yes & yes \\\\\n\\texttt{py-random-seed-tuple} & cpython & v4 & E & test & 1/5 & yes & yes \\\\\n\\texttt{py-sqlite3-optimizedunicode} & cpython & v4 & E & test & 2/5 & yes & yes \\\\\n\\texttt{py-traceback-etype} & cpython & v4 & E & test & 2/5 & yes & yes \\\\\n\\texttt{py-zipimport-find-module} & cpython & v4 & E & test & 1/5 & yes & yes \\\\\n\\texttt{py-fromisoformat-legacy} & cpython & v4 & S & test & 1/5 & no & yes \\\\\n\\texttt{py-ipaddress-private} & cpython & v4 & S & test & 1/5 & no & yes \\\\\n\\texttt{py-math-pow-inf} & cpython & v4 & S & test & 1/5 & no & yes \\\\\n\\texttt{py-nan-hash-buckets} & cpython & v4 & S & test & 1/5 & no & yes \\\\\n\\texttt{py-tokenize-fstring} & cpython & v4 & S & test & 2/5 & no & yes \\\\\n\\texttt{node-createcipher} & node & v2 & B & development & 0/5 & yes & yes \\\\\n\\texttt{node-control-path-posix} & node & v2 & C & test & 2/4 & no & no \\\\\n\\texttt{node-control-sha256} & node & v2 & C & test & 1/4 & no & no \\\\\n\\texttt{node-fs-truncate-fd} & node & v2 & E & test & 2/5 & yes & yes \\\\\n\\texttt{node-process-assert} & node & v2 & E & test & 4/15 & yes & yes \\\\\n\\texttt{node-util-isdate} & node & v2 & E & test & 3/6 & yes & yes \\\\\n\\texttt{node-buffer-max-length} & node & v2 & S & test & 1/6 & no & yes \\\\\n\\texttt{node-dirent-path} & node & v2 & S & test & 2/6 & yes & yes \\\\\n\\texttt{node-global-navigator} & node & v2 & S & test & 3/6 & yes & yes \\\\\n\\texttt{node-stream-highwatermark} & node & v2 & S & test & 1/5 & no & yes \\\\\n\\texttt{node-zlib-bytesread} & node & v2 & S & development & 2/5 & yes & yes \\\\\n\\texttt{node-createdecipher} & node & v3 & B & development & 0/4 & yes & yes \\\\\n\\texttt{node-writable-highwatermark} & node & v3 & S & test & 1/5 & no & yes \\\\\n\\texttt{node-timers-active} & node & v4 & E & test & 1/5 & yes & yes \\\\\n\\texttt{node-buffer-poolsize} & node & v4 & S & test & 3/5 & no & yes \\\\\n\\texttt{sqlite-control-group-sum} & sqlite & v3 & C & test & 1/4 & no & no \\\\\n\\texttt{sqlite-control-json-extract} & sqlite & v3 & C & test & 2/4 & no & no \\\\\n\\texttt{sqlite-dotcmd-semicolon} & sqlite & v3 & E & development & 1/5 & yes & yes \\\\\n\\texttt{sqlite-go-terminator} & sqlite & v3 & E & test & 1/5 & yes & yes \\\\\n\\texttt{sqlite-rowid-alias-column} & sqlite & v3 & E & test & 1/5 & yes & yes \\\\\n\\texttt{sqlite-blob-zero-bytes} & sqlite & v3 & S & test & 2/5 & no & yes \\\\\n\\texttt{sqlite-fp-17-digits} & sqlite & v3 & S & test & 1/6 & no & yes \\\\\n\\texttt{sqlite-indexes-pattern} & sqlite & v3 & S & development & 1/5 & no & yes \\\\\n\\texttt{sqlite-column-numeric-align} & sqlite & v4 & S & test & 1/5 & yes & yes \\\\\n\\texttt{sqlite-empty-result-header} & sqlite & v4 & S & test & 1/5 & no & yes \\\\\n\\bottomrule\n\\end{longtable}\n",
+  "curve-table": "\\begin{table}[t]\n\\caption{Model-free release-gate adequacy over the complete finite repair space of the 52 affected test tasks (49 clusters), all-consumer-assertions gate.  Added: mean visible inputs added to the typical ones.  FA: share of hidden-wrong procedures released; FR: share of hidden-correct procedures blocked (task means).  Stale: tasks in which the unrepaired procedure fails visibly.}\n\\label{tab:curves}\n\\small\n\\begin{tabular}{@{}lrrrr@{}}\n\\toprule\nVisible inputs & Added & FA & FR & Stale \\\\\n\\midrule\ntypical only & 0.00 & 0.410 & 0.010 & 34/52 \\\\\n+ blind writer, k=1 & 0.96 & 0.130 & 0.010 & 49/52 \\\\\n+ blind writer, k=2 & 1.85 & 0.075 & 0.010 & 50/52 \\\\\n+ blind writer, k=3 & 2.46 & 0.070 & 0.010 & 50/52 \\\\\n+ guarded writer, k=1 & 0.73 & 0.206 & 0.010 & 42/52 \\\\\n+ guarded writer, k=2 & 1.40 & 0.161 & 0.010 & 42/52 \\\\\n+ guarded writer, k=3 & 1.85 & 0.157 & 0.010 & 42/52 \\\\\n+ author edge input & 1.00 & 0.065 & 0.010 & 52/52 \\\\\n\\bottomrule\n\\end{tabular}\n\\end{table}\n",
+  "arms-table": "\\begin{table*}[t]\n\\caption{Model repairs on the test partition under the all-consumer-assertions gate: correct completions / false acceptances / false rejections per arm (8 cells per task and arm; 456 records per arm).  T typical inputs; S + the model's own self-tests; E + the author edge input; ES both.  Last column: false acceptances with no gate (arm T).}\n\\label{tab:arms}\n\\small\n\\begin{tabular}{@{}lrrrrr@{}}\n\\toprule\nModel & T & S & E & ES & no gate \\\\\n\\midrule\nGPT-5.6-luna & 398/22/0 & 403/9/0 & 408/7/0 & 409/0/0 & 45 \\\\\nQwen3-8B & 268/98/0 & 271/80/0 & 270/24/0 & 268/20/0 & 182 \\\\\ngpt-oss-20b & 320/71/0 & 327/47/1 & 353/8/0 & 351/8/0 & 111 \\\\\nqwen3.6-35b-a3b & 354/49/0 & 363/30/0 & 368/7/0 & 379/8/0 & 97 \\\\\n\\bottomrule\n\\end{tabular}\n\\end{table*}\n",
+  "family-table": "\\begin{table*}[t]\n\\caption{Family A4 per model (test clusters; cluster means of per-attempt rates): difference and Holm-adjusted $p$.  H1 FA(E)$-$FA(T); H2 FA(S)$-$FA(T); H3 FA(ES)$-$FA(E); H4 CC(S)$-$CC(T).}\n\\label{tab:family}\n\\small\n\\begin{tabular}{@{}llrrrr@{}}\n\\toprule\nModel & Status & H1 & H2 & H3 & H4 \\\\\n\\midrule\nGPT-5.6-luna & descriptive & $-$0.038 (0.499) & $-$0.033 (0.749) & $-$0.018 (1.000) & 0.013 (1.000) \\\\\nQwen3-8B & confirmatory & $-$0.176 (<0.001) & $-$0.046 (0.749) & $-$0.010 (1.000) & 0.010 (0.998) \\\\\ngpt-oss-20b & confirmatory & $-$0.161 (<0.001) & $-$0.064 (0.088) & 0.000 (--) & 0.023 (0.385) \\\\\nqwen3.6-35b-a3b & descriptive & $-$0.102 (0.004) & $-$0.048 (0.256) & 0.003 (1.000) & 0.023 (0.256) \\\\\n\\bottomrule\n\\end{tabular}\n\\end{table*}\n",
+  "selftest-table": "\\begin{table*}[t]\n\\caption{Self-tests written by each model from the release note and the visible contract: tasks with at least one valid test, valid tests, tests declared legacy-binding, tests identical to a hidden input, mean highest similarity to a hidden input, and the model-free FA of the gate built from the guarded (S) and unguarded (raw) self-tests, with the unguarded gate's FR.}\n\\label{tab:selftests}\n\\small\n\\begin{tabular}{@{}lrrrrrrrr@{}}\n\\toprule\nModel & Tasks & Tests & Binding & =hidden & Sim. & FA (S) & FA (raw) & FR (raw) \\\\\n\\midrule\nGPT-5.6-luna & 71/73 & 187 & 153 & 5 & 0.69 & 0.153 & 0.054 & 0.031 \\\\\nQwen3-8B & 30/73 & 49 & 27 & 2 & 0.71 & 0.355 & 0.240 & 0.031 \\\\\ngpt-oss-20b & 57/73 & 128 & 93 & 1 & 0.69 & 0.235 & 0.149 & 0.031 \\\\\nqwen3.6-35b-a3b & 67/73 & 168 & 122 & 3 & 0.68 & 0.215 & 0.100 & 0.031 \\\\\n\\bottomrule\n\\end{tabular}\n\\end{table*}\n",
+  "step1-gate-table": "\\begin{table}[t]\n\\caption{Offline gates applied to the hidden-wrong first-step candidates of arm T (test partition): share released by the blind-writer gate with 1 and 3 inputs (W1, W3), the guarded writer gate (G3), and the model's own unguarded (Sraw) and guarded (S) self-tests; last column: share of hidden-correct candidates blocked by Sraw.  All other gates blocked no correct candidate.}\n\\label{tab:step1}\n\\small\n\\begin{tabular}{@{}lrrrrrrr@{}}\n\\toprule\nModel & wrong & W1 & W3 & G3 & Sraw & S & FR Sraw \\\\\n\\midrule\nGPT-5.6-luna & 45 & 0.178 & 0.044 & 0.178 & 0.044 & 0.178 & 0.023 \\\\\nQwen3-8B & 176 & 0.261 & 0.170 & 0.261 & 0.330 & 0.455 & 0.038 \\\\\ngpt-oss-20b & 109 & 0.156 & 0.083 & 0.266 & 0.339 & 0.376 & 0.030 \\\\\nqwen3.6-35b-a3b & 92 & 0.098 & 0.054 & 0.337 & 0.326 & 0.337 & 0.026 \\\\\n\\bottomrule\n\\end{tabular}\n\\end{table}\n",
+  "probe-table": "\\begin{table}[t]\n\\caption{Contamination probe: hidden-correct first-step repairs without any release-note text (in parentheses: with the excerpts, typical inputs, full representation, no diff view, listed order).  Uniform random choice from each finite domain would be expected to be hidden-correct in 9.9/45, 3.8/13, 0.8/4 and 1.0/4 tasks.}\n\\label{tab:probe}\n\\small\n\\begin{tabular}{@{}lrrrr@{}}\n\\toprule\nModel & CPython & Node.js & SQLite 3.53 & SQLite 3.54 \\\\\n\\midrule\nGPT-5.6-luna & 37/45 (37) & 10/13 (10) & 3/4 (2) & 3/4 (3) \\\\\nQwen3-8B & 19/45 (24) & 6/13 (9) & 1/4 (0) & 1/4 (0) \\\\\ngpt-oss-20b & 29/45 (28) & 7/13 (8) & 2/4 (1) & 3/4 (3) \\\\\nqwen3.6-35b-a3b & 32/45 (34) & 10/13 (6) & 2/4 (3) & 2/4 (2) \\\\\n\\bottomrule\n\\end{tabular}\n\\end{table}\n",
+  "lm-curve-table": "\\begin{table}[t]\n\\caption{Large-menu stage, model-free: share of hidden-wrong (FA) and hidden-correct blocked (FR) procedures over the complete large-menu space of the affected test tasks (1986 procedures in all tasks), all-consumer-assertions gate, task means.}\n\\label{tab:lm}\n\\small\n\\begin{tabular}{@{}lrr@{}}\n\\toprule\nVisible inputs & FA & FR \\\\\n\\midrule\ntypical only & 0.278 & 0.014 \\\\\n+ author edge input & 0.045 & 0.014 \\\\\n+ blind writer, k=1 & 0.089 & 0.036 \\\\\n+ blind writer, k=2 & 0.054 & 0.043 \\\\\n+ blind writer, k=3 & 0.053 & 0.043 \\\\\n+ guarded writer, k=1 & 0.135 & 0.036 \\\\\n+ guarded writer, k=2 & 0.107 & 0.043 \\\\\n+ guarded writer, k=3 & 0.106 & 0.043 \\\\\n\\bottomrule\n\\end{tabular}\n\\end{table}\n",
+  "la-table": "\\begin{table*}[t]\n\\caption{Large-menu stage, model repairs (test partition, 456 attempts per arm): correct completions / wrong releases under all consumer assertions for arms T and E; LH1 wrong releases per attempt T$\\to$E (strict Holm $p$); LH2 change in wrong releases per attempt with typical inputs relative to the v4 menu (strict Holm $p$); LH3 change in correct completion relative to the v4 menu.}\n\\label{tab:la}\n\\small\n\\begin{tabular}{@{}llrrrrr@{}}\n\\toprule\nModel & Status & T & E & LH1 & LH2 & LH3 \\\\\n\\midrule\nGPT-5.6-luna & descriptive & 391/29 & 401/12 & 0.074$\\to$0.031 (0.378) & 0.018 (0.378) & $-$0.018 \\\\\nQwen3-8B & confirmatory & 241/108 & 244/27 & 0.253$\\to$0.062 (<0.001) & 0.019 (0.634) & $-$0.047 \\\\\ngpt-oss-20b & confirmatory & 310/85 & 334/15 & 0.212$\\to$0.038 (<0.001) & 0.031 (0.335) & $-$0.026 \\\\\nqwen3.6-35b-a3b & descriptive & 327/72 & 344/9 & 0.177$\\to$0.023 (<0.001) & 0.057 (0.047) & $-$0.069 \\\\\n\\bottomrule\n\\end{tabular}\n\\end{table*}\n",
+  "hd-table": "\\begin{table}[t]\n\\caption{Hard-distractor stage, model-free over the complete hard-menu space of the affected test tasks (2310 procedures in all tasks): FA and FR task means under all consumer assertions, and FA restricted to hard-origin programs (wrong options that match the legacy output on the typical inputs).}\n\\label{tab:hd}\n\\small\n\\begin{tabular}{@{}lrrr@{}}\n\\toprule\nVisible inputs & FA & FR & FA hard \\\\\n\\midrule\ntypical only & 0.337 & 0.010 & 0.990 \\\\\n+ blind writer (GPT-5.6-luna), k=3 & 0.058 & 0.042 & 0.153 \\\\\n+ guarded writer, k=3 & 0.135 & 0.042 & 0.492 \\\\\n+ author edge input & 0.058 & 0.010 & 0.168 \\\\\n+ blind writer v2 (qwen3.6), k=3 & 0.094 & 0.083 & -- \\\\\n+ blind writer v2 (Qwen3-8B), k=3 & 0.182 & 0.049 & -- \\\\\n\\bottomrule\n\\end{tabular}\n\\end{table}\n",
+  "ha-table": "\\begin{table*}[t]\n\\caption{Hard-distractor stage, model repairs (test partition, 456 attempts per arm): correct completions / wrong releases under all consumer assertions in arms T and E; HA1 wrong releases per attempt T$\\to$E (strict Holm $p$); HA2 change of typical-input wrong releases relative to the large menu.  Last four columns (descriptive, offline): share of each model's hidden-wrong first-step repairs released by the typical inputs plus three inputs of the GPT-5.6-luna writer, the qwen3.6 and Qwen3-8B writers (prompt v2), and the model's own self-tests.  $^{c}$ confirmatory family.}\n\\label{tab:ha}\n\\footnotesize\n\\begin{tabular}{@{}lrrrrrrrr@{}}\n\\toprule\nModel & T & E & HA1 & HA2 & luna & qwen3.6 & Qwen3-8B & own \\\\\n\\midrule\nGPT-5.6-luna & 385/42 & 394/12 & 0.107$\\to$0.031 (0.063) & 0.033 (0.094) & 0.117 & 0.433 & 0.300 & 0.117 \\\\\nQwen3-8B$^{c}$ & 245/105 & 244/22 & 0.250$\\to$0.050 (<0.001) & $-$0.003 (1.000) & 0.173 & 0.303 & 0.378 & 0.395 \\\\\ngpt-oss-20b$^{c}$ & 306/88 & 339/17 & 0.218$\\to$0.043 (<0.001) & 0.006 (0.757) & 0.104 & 0.392 & 0.384 & 0.416 \\\\\nqwen3.6-35b-a3b & 317/80 & 347/11 & 0.198$\\to$0.028 (<0.001) & 0.020 (0.225) & 0.048 & 0.373 & 0.349 & 0.317 \\\\\n\\bottomrule\n\\end{tabular}\n\\end{table*}\n",
+  "menu-free-table": "\\begin{table}[t]\n\\caption{Post-hoc, menu-independent view (52 affected test tasks).  Top: wrong programs that pass the all-assertions gate on the visible inputs, i.e. that the visible inputs cannot tell apart from a correct one (total, mean per task in parentheses), and tasks with at least one such program.  Bottom: tasks in which a model released at least one wrong repair in any of its 8 cells under all assertions, on the earlier and the large menu.}\n\\label{tab:menufree}\n\\small\n\\begin{tabular}{@{}lrrrrrrr@{}}\n\\toprule\n& Programs & \\multicolumn{2}{c}{T} & \\multicolumn{2}{c}{E} & \\multicolumn{2}{c}{W$_3$} \\\\\nMenu & median & wrong & tasks & wrong & tasks & wrong & tasks \\\\\n\\midrule\nearlier menu & 5 & 113 (2.17) & 41 & 14 (0.27) & 11 & 15 (0.29) & 12 \\\\\nlarge menu & 30 & 445 (8.56) & 42 & 46 (0.88) & 17 & 62 (1.19) & 15 \\\\\n\\bottomrule\n\\end{tabular}\n\n\\medskip\n\\begin{tabular}{@{}lrrrr@{}}\n\\toprule\n& \\multicolumn{2}{c}{earlier menu} & \\multicolumn{2}{c}{large menu} \\\\\nModel & T & E & T & E \\\\\n\\midrule\nGPT-5.6-luna & 5 & 1 & 7 & 3 \\\\\nQwen3-8B & 19 & 5 & 20 & 5 \\\\\ngpt-oss-20b & 16 & 1 & 16 & 2 \\\\\nqwen3.6-35b-a3b & 11 & 2 & 17 & 2 \\\\\n\\bottomrule\n\\end{tabular}\n\\end{table}\n"
+ },
+ "numbers": {
+  "FMFTypFA": [
+   "0.410",
+   "main menu, typical inputs only: share of wrong repairs released (model-free)"
+  ],
+  "FMFEdgeFA": [
+   "0.065",
+   "main menu, + one author edge input"
+  ],
+  "FNewFAEdge": [
+   "0.061",
+   "main menu, + edge input, unseen clusters"
+  ],
+  "FNewTestClusters": [
+   "15",
+   "number of unseen test clusters"
+  ],
+  "FMFWThreeFA": [
+   "0.070",
+   "main menu, + three blind-writer inputs (GPT-5.6-luna)"
+  ],
+  "FLTotal": [
+   "1491",
+   "large menu: author fragments"
+  ],
+  "FHHard": [
+   "233",
+   "hard menu: hard distractors added"
+  ],
+  "FHMFEdgeFA": [
+   "0.058",
+   "hard menu, + edge input: share of wrong repairs released"
+  ],
+  "FHMFWThreeFA": [
+   "0.058",
+   "hard menu, + three frontier-writer inputs"
+  ],
+  "FHMFEdgeHard": [
+   "0.168",
+   "hard menu, + edge input: share of hard wrong programs released"
+  ],
+  "FHMFWThreeHard": [
+   "0.153",
+   "hard menu, + frontier writer: share of hard wrong programs released"
+  ],
+  "FHWROneDecision": [
+   "not positive",
+   "local writer qwen3.6-35b-a3b (prompt v2): preregistered test"
+  ],
+  "FHWRTwoDecision": [
+   "not positive",
+   "local writer Qwen3-8B (prompt v2): preregistered test"
+  ],
+  "FQwenEightHOneB": [
+   "0.233",
+   "Qwen3-8B, main menu: wrong releases per attempt, typical inputs"
+  ],
+  "FQwenEightHOneA": [
+   "0.057",
+   "Qwen3-8B, main menu: wrong releases per attempt, + edge input"
+  ],
+  "FAuditFlagged": [
+   "34",
+   "contracts flagged by the blind AI audit as stricter than their requirement"
+  ],
+  "FHWROneHolm": [
+   "<0.001",
+   "local writer qwen3.6-35b-a3b: strict Holm p"
+  ],
+  "FHWRTwoHolm": [
+   "<0.001",
+   "local writer Qwen3-8B: strict Holm p"
+  ],
+  "FEdgeRepPositive": [
+   "3",
+   "main menu: families in which the edge input had the preregistered positive effect"
+  ],
+  "FEdgeRepMet": [
+   "met",
+   "main menu: replication criterion"
+  ],
+  "FSelfRepPositive": [
+   "0",
+   "main menu: families in which self-tests had the preregistered positive effect"
+  ],
+  "FSelfRepMet": [
+   "not met",
+   "main menu: self-test replication criterion"
+  ],
+  "FLRepPositive": [
+   "3",
+   "large menu: families with a positive edge-input effect"
+  ],
+  "FLRepMet": [
+   "met",
+   "large menu: replication criterion"
+  ],
+  "FHRepPositive": [
+   "3",
+   "hard menu: families with a positive edge-input effect"
+  ],
+  "FHRepMet": [
+   "met",
+   "hard menu: replication criterion"
+  ],
+  "EdgeInputPositiveAllOpenWeightAllMenus": [
+   "yes",
+   "edge input: preregistered positive effect in all three open-weight families on all three menus"
+  ]
+ }
+}

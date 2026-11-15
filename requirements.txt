@@ -1,0 +1,1 @@
+# No third-party packages are required: reproduce_tables.py uses the Python standard library only (Python 3.9 or newer).

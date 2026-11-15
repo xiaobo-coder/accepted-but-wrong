@@ -1,0 +1,13 @@
+Data and documentation license
+
+The data files (data/) and the documentation (README.md) of this repository are licensed under the Creative Commons
+Attribution 4.0 International License (CC BY 4.0).
+Full text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+Program code (reproduce_tables.py) is licensed under the MIT License (LICENSE).
+
+Copyright (c) 2026 Xiaobo Chen, Genliang Zhu, Ziyuan Wang, Chu Wang
+
+Please cite the paper (see CITATION.cff) when using these materials.
+All task content is synthetic. Hidden contracts and hidden inputs (the evaluation key) are not included; they are
+available from the authors on request.
